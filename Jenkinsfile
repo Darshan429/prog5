@@ -13,7 +13,7 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git brach: 'main', url: 'https://github.com/Darshan429/prog5.git'
+				git branch: 'main', url: 'https://github.com/Darshan429/prog5.git'
 				}
 			}
 			
